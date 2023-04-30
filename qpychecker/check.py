@@ -2,7 +2,7 @@ import importlib
 import inspect
 import pkgutil
 
-from .checkers import *
+from qpychecker.checkers import *
 
 
 class Check(BooleanChecker, CollectionChecker, UUIDChecker,
