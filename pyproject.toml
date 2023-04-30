@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fluentqa-checker"
+version = "0.1.0"
+description = ""
+authors = ["Ke Wu <ke.wu@carbonnt.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyYAML = "^6.0"
+pydantic = "^1.10.7"
+rich = "^13.3.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

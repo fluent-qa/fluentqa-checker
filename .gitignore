@@ -1,0 +1,15 @@
+*.pyc
+.cache/
+.idea/
+__pycache__/
+build/
+dist/
+fluentcheck.egg-info/
+.tox/
+.coverage
+htmlcov/
+
+.venv/
+
+venv/
+.idea/
