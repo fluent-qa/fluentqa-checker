@@ -1,6 +1,9 @@
 # FluentQA Checker
 
-Add Soft Assertions:
+## Soft Assertions
+
+> add assertions in tests, with soft_checker, it will run all the assertions, despite any error raised.
+And all the error will be reported after test completed.
 
 ```python
     def test_has_not_length(self):
@@ -9,5 +12,10 @@ Add Soft Assertions:
             checker.has_not_length(4)
 ```
 
-when you try to add assertions, with soft_checker,
-it will run all the assertions, despite any error raised
+## fluent-checker
+
+most of the checking is from: https://github.com/fluent-check/fluent-check
+Only change some codes to support soft-assertion and do some adujst to make easy to find methods.
+
+
+
